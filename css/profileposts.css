@@ -1,0 +1,802 @@
+@media screen and (min-width: 1025px)
+{
+    .ProfileContent
+    {
+        width: 70%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .TabMenu
+    {
+        width: 95%;
+        background-color: rgb(30,30,30);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        display: flex;    
+        align-items: center;
+    }
+
+    .TabMenu .Button
+    {
+        width: 15%;
+        height: 45px;
+        font-size: 10pt;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-right: solid rgb(20,20,20);
+    }
+
+    .ProfilePostsDashboard
+    {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .PostSomething
+    {
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-top: 20px;
+        background-color: rgb(30,30,30);
+    }
+
+    .PhotoText
+    {
+        width: 95%;
+        margin-top: 20px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .PostProfilePicture
+    {
+        width: 45px;
+        height: 45px;
+        margin-right: 10px;
+        border-radius: 50px;
+        object-fit: cover;
+        cursor: pointer;
+        object-position: center;
+    }
+
+    .TextPost
+    {
+        width: 90%;
+        height: 40px;
+        padding: 0px 15px;
+        border-radius: 50px;
+        border: none;
+        color: white;
+        background-color: rgb(50,50,50);
+        outline: none;
+    }
+
+    .ButtonPost
+    {
+        width: 100%;
+        margin: auto;
+        border-top: solid rgb(20,20,20) 5px;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        height: 50px;
+    }
+
+    .ButtonPost .Text
+    {
+        height: 40px;
+        width: 12%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10pt;
+        font-weight: bold;
+        margin-right: 10px;
+        border-right: solid rgb(20,20,20) 1px;
+    }
+
+    .ButtonIcon
+    {
+        height: 20px;
+        width: 20px;
+    }
+
+    .ButtonPost .Button
+    {
+        height: 40px;
+        width: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10pt;
+        border-right: solid rgb(20,20,20) 1px;
+    }
+
+    #Posting
+    {
+        width: 15%;
+        height: 30px;
+        border-radius: 50px;
+        background-color: rgb(0,101,157);
+        color: white;
+        font-weight: bold;
+        display: flex;;
+        border: none;
+        margin-right: 50px;
+        margin-left: auto;
+    }
+
+    .Post
+    {
+        margin-top: 10px;
+        padding-top: 25px;
+        background-color: rgb(30,30,30);
+    }
+
+    .PostInfo
+    {
+        width: 80%;
+    }
+
+    .PostInfo .Name
+    {
+        font-size: 12pt;
+        text-decoration: none;
+        color: white;
+    }
+
+    .PostInfo .Date
+    {
+        font-size: 10pt;
+    }
+
+    .PostText
+    {
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    .PostImg
+    {
+        width: 85%;
+        border-radius: 20px;
+        border: 1px solid rgb(50,50,50);
+        margin: auto;
+        margin-top: 20px;
+        background-color: rgb(25,25,25);
+        display: flex;
+    }
+    
+    .PostImg img
+    {
+        width: 500px;
+        height: 500px;
+        overflow: hidden;
+        object-position: center;
+        object-fit: cover;
+        margin: auto;
+    }
+
+    .LikeButton
+    {
+        width: 30px;
+        z-index: 1;
+        margin-right: 10px;
+    }
+
+    #LikeBar
+    {
+        border-radius: 50px;
+        margin-left: auto;
+        margin-right: 30px;
+        border: 1px solid white;
+        background-color: rgb(30,30,30);
+        color: white;
+        width: 30%;
+        height: 35px;
+        background: url(../images/like.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: 40%;
+    }
+
+    #LikedBar
+    {
+        border-radius: 50px;
+        margin-left: auto;
+        margin-right: 30px;
+        border: 1px solid red;
+        color: white;
+        width: 30%;
+        height: 35px;
+        background: url(../images/liked.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: 35%;
+    }
+
+    .LikesCount
+    {
+        display: flex;
+        width: 20%;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .DeleteButton
+    {
+        width: 30px;
+        height: 30px;
+        background: url(../images/delete.png);
+        background-size: cover;
+        margin-left: auto;
+        border: none;
+        cursor: pointer;
+    }
+
+    .UserSongInfoPost
+    {
+        width: 95%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 10px;
+        text-decoration: none;
+        color: white;
+        transition: scale 0.2s ease-in-out;
+    }
+
+    .UserSongInfoPost:hover
+    {
+        scale: 1.01;
+    }
+}
+
+
+@media screen and (min-width: 681px) and (max-width: 1024px)
+{
+    .ProfileContent
+    {
+        width: 95%;
+        margin-top: 50px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .TabMenu
+    {
+        width: 95%;
+        background-color: rgb(30,30,30);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        display: flex;    
+        align-items: center;
+    }
+
+    .TabMenu .Button
+    {
+        width: 33%;
+        height: 45px;
+        font-size: 10pt;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-right: solid rgb(20,20,20);
+    }
+
+    .ProfilePostsDashboard
+    {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .PostSomething
+    {
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-top: 20px;
+        background-color: rgb(30,30,30);
+    }
+
+    .PhotoText
+    {
+        width: 95%;
+        margin-top: 20px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .PostProfilePicture
+    {
+        width: 45px;
+        height: 45px;
+        margin-right: 10px;
+        border-radius: 50px;
+        object-fit: cover;
+        cursor: pointer;
+        object-position: center;
+    }
+
+    .TextPost
+    {
+        width: 90%;
+        height: 40px;
+        padding: 0px 15px;
+        border-radius: 50px;
+        border: none;
+        color: white;
+        background-color: rgb(50,50,50);
+        outline: none;
+    }
+
+    .ButtonPost
+    {
+        width: 100%;
+        margin: auto;
+        border-top: solid rgb(20,20,20) 5px;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        height: 50px;
+    }
+
+    .ButtonPost .Text
+    {
+        height: 40px;
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10pt;
+        font-weight: bold;
+        margin-right: 10px;
+        border-right: solid rgb(20,20,20) 1px;
+    }
+
+    .ButtonIcon
+    {
+        height: 20px;
+        width: 20px;
+    }
+
+    .ButtonPost .Button
+    {
+        height: 40px;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10pt;
+        border-right: solid rgb(20,20,20) 1px;
+    }
+
+    #Posting
+    {
+        width: 30%;
+        height: 30px;
+        border-radius: 50px;
+        background-color: rgb(0,101,157);
+        color: white;
+        font-weight: bold;
+        display: flex;;
+        border: none;
+        margin-right: 20px;
+        margin-left: auto;
+    }
+
+    .Post
+    {
+        margin-top: 10px;
+        padding-top: 25px;
+        background-color: rgb(30,30,30);
+    }
+
+    .PostInfo
+    {
+        width: 80%;
+    }
+
+    .PostInfo .Name
+    {
+        font-size: 12pt;
+        text-decoration: none;
+        color: white;
+    }
+
+    .PostInfo .Date
+    {
+        font-size: 10pt;
+    }
+
+    .PostText
+    {
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .PostImg
+    {
+        width: 85%;
+        border-radius: 20px;
+        border: 1px solid rgb(50,50,50);
+        overflow: hidden;
+        margin: auto;
+        margin-top: 20px;
+        background-color: rgb(25,25,25);
+        display: flex;
+    }
+    
+    .PostImg img
+    {
+        width: 350px;
+        height: 350px;
+        object-fit: cover;
+        object-position: center;
+        margin: auto;
+    }
+
+    .LikeButton
+    {
+        width: 30px;
+        z-index: 1;
+        margin-right: 10px;
+    }
+
+    #LikeBar
+    {
+        border-radius: 50px;
+        margin-left: auto;
+        margin-right: 30px;
+        border: 1px solid white;
+        background-color: rgb(30,30,30);
+        color: white;
+        width: 35%;
+        height: 35px;
+        background: url(../images/like.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: 35%;
+    }
+
+    #LikedBar
+    {
+        border-radius: 50px;
+        margin-left: auto;
+        margin-right: 30px;
+        border: 1px solid red;
+        color: white;
+        width: 30%;
+        height: 35px;
+        background: url(../images/liked.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: 25%;
+    }
+
+    .LikesCount
+    {
+        display: flex;
+        width: 20%;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .DeleteButton
+    {
+        width: 30px;
+        height: 30px;
+        background: url(../images/delete.png);
+        background-size: cover;
+        margin-left: auto;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .UserSongInfoPost
+    {
+        width: 95%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 10px;
+        text-decoration: none;
+        color: white;
+        transition: scale 0.2s ease-in-out;
+    }
+
+    .UserSongInfoPost:hover
+    {
+        scale: 1.01;
+    }
+}
+
+@media screen and (max-width: 680px)
+{
+    .ProfileContent
+    {
+        margin: auto;
+        width: 95%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .TabMenu
+    {
+        width: 95%;
+        background-color: rgb(30,30,30);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        display: flex;    
+        align-items: center;
+    }
+
+    .TabMenu .Button
+    {
+        width: 33%;
+        height: 45px;
+        font-size: 10pt;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-right: solid rgb(20,20,20);
+    }
+
+    .ProfilePostsDashboard
+    {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .PostSomething
+    {
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-top: 20px;
+        background-color: rgb(30,30,30);
+    }
+
+    .PhotoText
+    {
+        width: 95%;
+        margin-top: 20px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .PostProfilePicture
+    {
+        width: 45px;
+        height: 45px;
+        margin-right: 10px;
+        border-radius: 50px;
+        object-fit: cover;
+        cursor: pointer;
+        object-position: center;
+    }
+
+    .TextPost
+    {
+        width: 90%;
+        height: 40px;
+        padding: 0px 15px;
+        border-radius: 50px;
+        border: none;
+        color: white;
+        background-color: rgb(50,50,50);
+        outline: none;
+    }
+
+    .ButtonPost
+    {
+        width: 100%;
+        margin: auto;
+        border-top: solid rgb(20,20,20) 5px;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        height: 50px;
+    }
+
+    .ButtonPost .Text
+    {
+        height: 40px;
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10pt;
+        font-weight: bold;
+        margin-right: 10px;
+        border-right: solid rgb(20,20,20) 1px;
+    }
+
+    .ButtonIcon
+    {
+        height: 20px;
+        width: 20px;
+    }
+
+    .ButtonPost .Button
+    {
+        height: 40px;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10pt;
+        border-right: solid rgb(20,20,20) 1px;
+    }
+
+    #Posting
+    {
+        width: 30%;
+        height: 30px;
+        border-radius: 50px;
+        background-color: rgb(0,101,157);
+        color: white;
+        font-weight: bold;
+        display: flex;;
+        border: none;
+        margin-right: 20px;
+        margin-left: auto;
+    }
+
+    .Post
+    {
+        margin-top: 10px;
+        padding-top: 25px;
+        background-color: rgb(30,30,30);
+    }
+
+    .PostInfo
+    {
+        width: 80%;
+    }
+
+    .PostInfo .Name
+    {
+        font-size: 12pt;
+        text-decoration: none;
+        color: white;
+    }
+
+    .PostInfo .Date
+    {
+        font-size: 10pt;
+    }
+
+    .PostText
+    {
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .PostImg
+    {
+        width: 85%;
+        border-radius: 20px;
+        border: 1px solid rgb(50,50,50);
+        overflow: hidden;
+        margin: auto;
+        margin-top: 20px;
+        background-color: rgb(25,25,25);
+        display: flex;
+    }
+    
+    .PostImg img
+    {
+        width: 350px;
+        height: 350px;
+        object-fit: cover;
+        object-position: center;
+        margin: auto;
+    }
+
+    .LikeButton
+    {
+        width: 30px;
+        z-index: 1;
+        margin-right: 10px;
+    }
+
+    #LikeBar
+    {
+        border-radius: 50px;
+        margin-left: auto;
+        margin-right: 30px;
+        border: 1px solid white;
+        background-color: rgb(30,30,30);
+        color: white;
+        width: 35%;
+        height: 35px;
+        background: url(../images/like.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: 35%;
+    }
+
+    #LikedBar
+    {
+        border-radius: 50px;
+        margin-left: auto;
+        margin-right: 30px;
+        border: 1px solid red;
+        color: white;
+        width: 30%;
+        height: 35px;
+        background: url(../images/liked.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: 25%;
+    }
+
+    .LikesCount
+    {
+        display: flex;
+        width: 20%;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .DeleteButton
+    {
+        width: 30px;
+        height: 30px;
+        background: url(../images/delete.png);
+        background-size: cover;
+        margin-left: auto;
+        border: none;
+        cursor: pointer;
+    }
+
+
+    .UserSongInfoPost
+    {
+        width: 95%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 10px;
+        text-decoration: none;
+        color: white;
+        transition: scale 0.2s ease-in-out;
+    }
+
+    .UserSongInfoPost:hover
+    {
+        scale: 1.01;
+    }
+    
+}

@@ -1,0 +1,358 @@
+@media screen and (min-width: 1025px)
+{
+    .User
+    {
+        width: 95%;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        margin-bottom: 20px;
+        border-bottom: solid 2px rgb(20,20,20);
+    }
+
+    .UserPicture img
+    {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 5px;
+        object-fit: cover;
+        border-radius: 50px;
+        object-position: center;
+    }
+
+    .Info
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 10px;
+    }
+
+    .Info .Name
+    {
+        font-size: 12pt;
+    }
+
+    .Info .Id
+    {
+        font-size: 10pt;
+        font-weight: normal;
+    }
+
+    .FollowSearchForm
+    {
+        width: 10%;
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .UnfollowSearchForm
+    {
+        width: 15%;
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .FollowSearchForm .Button
+    {
+        height: 35px;
+        width: 100%;
+        font-weight: bold;
+        color: white;
+        border-radius: 50px;
+        border: solid 3px rgb(0,101,157);
+        transition: scale 0.2s ease-in-out;
+    }
+
+    .UnfollowSearchForm .Button
+    {
+        height: 35px;
+        width: 100%;
+        font-weight: bold;
+        color: white;
+        border-radius: 50px;
+        border: solid 3px rgb(0,101,157);
+        transition: scale 0.2s ease-in-out;
+    }
+
+    .AddToListForm
+    {
+        width: 15%;
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .AddToListForm .Button
+    {
+        height: 35px;
+        width: 100%;
+        font-weight: bold;
+        color: white;
+        border-radius: 50px;
+        border: solid 3px rgb(0,101,157);
+        transition: scale 0.2s ease-in-out;
+    }
+
+    .QuitFromListForm
+    {
+        width: 15%;
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .QuitFromListForm .Button
+    {
+        height: 35px;
+        width: 100%;
+        font-weight: bold;
+        color: white;
+        border-radius: 50px;
+        border: solid 3px rgb(0,101,157);
+        transition: scale 0.2s ease-in-out;
+    }
+    
+}
+
+
+@media screen and (min-width: 681px) and (max-width: 1024px)
+{
+    .User
+    {
+        width: 95%;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        margin-bottom: 20px;
+        border-bottom: solid 2px rgb(20,20,20);
+    }
+
+    .UserPicture img
+    {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 5px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50px;
+    }
+
+    .Info
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 10px;
+    }
+
+    .Info .Name
+    {
+        font-size: 12pt;
+    }
+
+    .Info .Id
+    {
+        font-size: 10pt;
+        font-weight: normal;
+    }
+
+    .FollowSearchForm
+    {
+        width: 20%;
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .UnfollowSearchForm
+    {
+        width: 25%;
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .FollowSearchForm .Button
+    {
+        height: 35px;
+        width: 100%;
+        font-weight: bold;
+        color: white;
+        border-radius: 50px;
+        border: solid 3px rgb(0,101,157);
+        transition: scale 0.2s ease-in-out;
+    }
+
+    .UnfollowSearchForm .Button
+    {
+        height: 35px;
+        width: 100%;
+        font-weight: bold;
+        color: white;
+        border-radius: 50px;
+        border: solid 3px rgb(0,101,157);
+        transition: scale 0.2s ease-in-out;
+    }
+
+    .AddToListForm
+    {
+        width: 25%;
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .AddToListForm .Button
+    {
+        height: 35px;
+        width: 100%;
+        font-weight: bold;
+        color: white;
+        border-radius: 50px;
+        border: solid 3px rgb(0,101,157);
+        transition: scale 0.2s ease-in-out;
+    }
+
+    .QuitFromListForm
+    {
+        width: 25%;
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .QuitFromListForm .Button
+    {
+        height: 35px;
+        width: 100%;
+        font-weight: bold;
+        color: white;
+        border-radius: 50px;
+        border: solid 3px rgb(0,101,157);
+        transition: scale 0.2s ease-in-out;
+    }
+}
+
+@media screen and (max-width: 680px)
+{
+    .User
+    {
+        width: 95%;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        margin-bottom: 20px;
+        border-bottom: solid 2px rgb(20,20,20);
+    }
+
+    .UserPicture img
+    {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 5px;
+        object-fit: cover;
+        border-radius: 50px;
+        object-position: center;
+    }
+
+    .Info
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 10px;
+    }
+
+    .Info .Name
+    {
+        font-size: 12pt;
+    }
+
+    .Info .Id
+    {
+        font-size: 10pt;
+        font-weight: normal;
+    }
+
+    .FollowSearchForm
+    {
+        width: 20%;
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .UnfollowSearchForm
+    {
+        width: 35%;
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .FollowSearchForm .Button
+    {
+        height: 35px;
+        width: 100%;
+        font-weight: bold;
+        color: white;
+        border-radius: 50px;
+        border: solid 3px rgb(0,101,157);
+        transition: scale 0.2s ease-in-out;
+    }
+
+    .UnfollowSearchForm .Button
+    {
+        height: 35px;
+        width: 100%;
+        font-weight: bold;
+        color: white;
+        border-radius: 50px;
+        border: solid 3px rgb(0,101,157);
+        transition: scale 0.2s ease-in-out;
+    }
+
+    .AddToListForm
+    {
+        width: 35%;
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .AddToListForm .Button
+    {
+        height: 35px;
+        width: 100%;
+        font-weight: bold;
+        color: white;
+        border-radius: 50px;
+        border: solid 3px rgb(0,101,157);
+        transition: scale 0.2s ease-in-out;
+    }
+
+    .QuitFromListForm
+    {
+        width: 35%;
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .QuitFromListForm .Button
+    {
+        height: 35px;
+        width: 100%;
+        font-weight: bold;
+        color: white;
+        border-radius: 50px;
+        border: solid 3px rgb(0,101,157);
+        transition: scale 0.2s ease-in-out;
+    }
+}

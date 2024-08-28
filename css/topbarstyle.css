@@ -1,0 +1,802 @@
+.Button:hover
+{
+    outline: none;
+    scale: 1.02;
+}
+
+#selected
+{
+    border-bottom: 2px solid white;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+
+.PasswordButton:hover
+{
+    scale: 1.01;
+}
+
+@media screen and (min-width: 1025px)
+{
+    .TopBar
+    {
+        height:60px;
+        width: 100%;
+        display: flex;
+        background-color: rgb(30, 30, 30);
+        height: 8%;
+    }
+    .Logo
+    {
+        width: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25pt;
+        font-weight: bold;
+        margin: auto;
+        
+    }
+    .Toogle
+    {
+        display: none;
+    }
+
+    .ToogleLabel
+    {
+        display: none;
+    }
+    .PlegableMenu
+    {
+        display: flex;
+        width: 95%;
+    }
+    .SearchBar 
+    {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .SearchBar .Bar
+    {
+        width: 80%;
+        border-top: 3px solid rgb(0,101,157);
+        border-left: 3px solid rgb(0,101,157);
+        border-bottom: 3px solid rgb(0,101,157);
+        border-right: none;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        padding: 5px;
+        font-size: 11pt;
+        background-color: rgb(30, 30, 30);
+        color: white;
+        outline: none;
+    }
+    .SearchBar .Button
+    {
+        width: 20%;
+        border: 3px solid rgb(0,101,157);
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding: 5px;
+        font-size: 11pt;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(0,101,157);
+        color: white;
+        transition: scale 0.2s ease-in-out;
+    }
+    .SearchBar .Button:hover
+    {
+    
+        background-color: rgb(0,90,146);
+        border: 3px solid rgb(0,90,146);
+
+    }
+
+    .Menu
+    {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .Menu .Button
+    {
+        display: flex;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        margin: auto;
+        padding: 5px;
+        transition: scale 0.2s ease-in-out;
+        background-color: rgb(30, 30, 30);
+        color: white;
+    }
+   
+    .LoginButtons
+    {
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        margin: auto;
+    }
+    .LoginButtons .Button
+    {
+        font-weight: bold;
+        color: white;
+        margin: auto;
+        border: 3px solid rgb(0,101,157);
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4px;
+        border-radius: 20px;
+        transition: scale 0.2s ease-in-out;
+    }
+
+    #Login
+    {
+        background-color: rgb(0,101,157);
+    }
+    #Register
+    {
+        background-color: rgb(30,30,30);
+    }
+
+    .ProfileButtons
+    {
+        width: 25%;
+        margin: auto;
+        display: flex;
+    }
+
+    .ProfilePicture
+    {
+        width: 50%;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        border-radius: 50px;
+        margin: auto;
+        transition: scale 0.2s ease-in-out;
+    }
+
+    .ProfilePicture:hover
+    {
+        background-color: rgb(20, 20, 20);
+        scale: 1.05;
+    }
+
+    #ProPicture
+    {
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        vertical-align: middle;
+        border: 3px solid rgb(0,101,157);
+        object-fit: cover;
+        z-index: 1;
+    }
+
+    .ProfileButton
+    {
+        width: 40%;
+        padding: 12px ;
+        font-weight: bold;
+        font-size: 10pt;
+        color: white;
+    }
+
+    .Exit
+    {
+        width: 50%;
+        height: 45px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        transition: scale 0.2s ease-in-out;
+        margin: auto;
+
+    }
+
+    .Exit:hover
+    {
+        background-color: rgb(20, 20, 20);
+        scale: 1.05;
+    }
+
+    #ExitPicture
+    {
+        width: 30px;
+        height: 30px;
+        vertical-align: middle;
+        object-fit: cover;
+        z-index: 1;
+
+    }
+
+    .ExitButton
+    {
+        width: 40%;
+        padding: 12px ;
+        font-weight: bold;
+        font-size: 10pt;
+        color: white;
+    }
+    
+}
+
+
+@media screen and (min-width: 681px) and (max-width: 1024px)
+{
+    .TopBar
+    {
+        height:60px;
+        width: 100%;
+        display: flex;
+        background-color: rgb(30, 30, 30);
+        height: 8%;
+    }
+    .Logo
+    {
+        width: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20pt;
+        font-weight: bold;
+        margin: auto;
+        margin-left: 15px;
+        
+    }
+    .Toogle
+    {
+        display: none;
+    }
+    
+    .ToogleLabel
+    {
+        display: none;
+    }
+    .PlegableMenu
+    {
+        display: flex;
+        width: 95%;
+    }
+    .SearchBar 
+    {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .SearchBar .Bar
+    {
+        width: 80%;
+        border-top: 3px solid rgb(0,101,157);
+        border-left: 3px solid rgb(0,101,157);
+        border-bottom: 3px solid rgb(0,101,157);
+        border-right: none;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        padding: 5px;
+        font-size: 7.5pt;
+        background-color: rgb(30, 30, 30);
+        color: white;
+        outline: none;
+    }
+    .SearchBar .Button
+    {
+        width: 20%;
+        border: 3px solid rgb(0,101,157);
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding: 5px;
+        font-size: 7.5pt;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(0,101,157);
+        color: white;
+        transition: scale 0.2s ease-in-out;
+    }
+    .SearchBar .Button:hover
+    {
+    
+        background-color: rgb(0,90,146);
+        border: 3px solid rgb(0,90,146);
+
+    }
+
+    .Menu
+    {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .Menu .Button
+    {
+        display: flex;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 7.5pt;
+        margin: auto;
+        padding: 5px;
+        transition: scale 0.2s ease-in-out;
+        background-color: rgb(30, 30, 30);
+        color: white;
+    }
+   
+    .LoginButtons
+    {
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        margin: auto;
+    }
+    .LoginButtons .Button
+    {
+        font-weight: bold;
+        color: white;
+        margin: auto;
+        border: 3px solid rgb(0,101,157);
+        width: 45%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4px;
+        border-radius: 20px;
+        font-size: 7.5pt;
+        transition: scale 0.2s ease-in-out;
+    }
+
+    #Login
+    {
+        background-color: rgb(0,101,157);
+    }
+    #Register
+    {
+        background-color: rgb(30,30,30);
+    }
+
+    .ProfileButtons
+    {
+        width: 25%;
+        margin: auto;
+        display: flex;
+    }
+
+    .ProfilePicture
+    {
+        width: 50%;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        border-radius: 50px;
+        margin: auto;
+        transition: scale 0.2s ease-in-out;
+    }
+
+    .ProfilePicture:hover
+    {
+        background-color: rgb(20, 20, 20);
+        scale: 1.05;
+    }
+
+    #ProPicture
+    {
+        width: 30px;
+        height:30px;
+        border-radius: 50px;
+        vertical-align: middle;
+        border: 3px solid rgb(0,101,157);
+        object-fit: cover;
+        z-index: 1;
+    }
+
+    .ProfileButton
+    {
+        width: 40%;
+        padding: 5px ;
+        font-weight: bold;
+        font-size: 8pt;
+        color: white;
+    }
+
+    .Exit
+    {
+        width: 50%;
+        height: 45px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        transition: scale 0.2s ease-in-out;
+        margin: auto;
+
+    }
+
+    .Exit:hover
+    {
+        background-color: rgb(20, 20, 20);
+        scale: 1.05;
+    }
+
+    #ExitPicture
+    {
+        width: 25px;
+        height: 25px;
+        vertical-align: middle;
+        object-fit: cover;
+        z-index: 1;
+
+    }
+
+    .ExitButton
+    {
+        width: 40%;
+        padding: 5px ;
+        font-weight: bold;
+        font-size: 8pt;
+        color: white;
+    }
+
+    
+    
+}
+
+@media screen and (max-width: 680px)
+{
+    .TopBar
+    {
+        height:60px;
+        width: 100%;
+        display: flex;
+        background-color: rgb(30, 30, 30);
+        height: 8%;
+    }
+    .Logo
+    {
+        width: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20pt;
+        font-weight: bold;
+        margin-left: 30px;
+        
+    }
+    .Toogle
+    {
+        display: flex;
+        flex-direction: column;
+        width: 35px;
+        height: 35px;
+        z-index: 1;
+        margin: auto;
+        margin-top: 20px;
+        margin-right: 30px;
+    }
+
+    .ToogleLabel
+    {
+        display: flex;
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        right: 30px;
+        top: 20px;
+        cursor: pointer;
+        opacity: 0;
+        margin: 0;
+        z-index: 2;
+    }
+
+    
+
+    .ToogleLabel:checked ~ .Toogle .MenuToogle
+    {
+        opacity: 1;
+        transform: translate(2px, -2px) rotate(45deg) ;
+        background: #36383F;
+    }
+
+    .ToogleLabel:checked ~ .Toogle .MenuToogle:nth-last-child(2)
+    {
+        opacity: 0;
+        transform:scale(0.2, 0.2);
+    }
+
+    .ToogleLabel:checked ~ .Toogle .MenuToogle:nth-last-child(1)
+    {
+        transform: translate(0px, 3px) rotate(-45deg) ;
+    }
+
+    .Toogle .MenuToogle
+    {
+        display: flex;
+        width: 35px;
+        height: 3px;
+        margin-bottom: 5px;
+        position: relative;
+        background: #ffffff;
+        border-radius: 3px;
+        z-index: 1;
+        transform-origin: 5px 0px;
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                    background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                    opacity 0.55s ease;
+    }
+
+    .Toogle .MenuToogle:first-child
+    {
+        transform-origin: 0% 0%;
+    }
+    .Toogle .MenuToogle:nth-last-child(2)
+    {
+        transform-origin: 0% 100%;
+    }
+    
+    .PlegableMenu
+    {
+        display: flex;
+        margin-left: auto;
+        flex-direction: column;
+        position: absolute;
+        align-items: center;
+        right: 0;
+        top: 8%;
+        height: 84%;
+        padding: 30px;
+        width: 60%;
+        background-color: rgb(30, 30, 30);
+        -webkit-font-smoothing: antialiased;
+        transform-origin: 100% 0%;
+        z-index: 1;
+        transform: translate(100%, 0) scale(0,0);
+        transition: transform 0.5s;
+
+        
+    }
+    
+
+    .SearchBar 
+    {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0;
+    }
+    .SearchBar .Bar
+    {
+        width: 80%;
+        height: 40px;
+        border-top: 3px solid rgb(0,101,157);
+        border-left: 3px solid rgb(0,101,157);
+        border-bottom: 3px solid rgb(0,101,157);
+        border-right: none;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        padding: 5px;
+        font-size: 10pt;
+        background-color: rgb(30, 30, 30);
+        color: white;
+        outline: none;
+    }
+    .SearchBar .Button
+    {
+        width: 25%;
+        height: 40px;
+        border: 3px solid rgb(0,101,157);
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding: 5px;
+        font-size: 7.5pt;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(0,101,157);
+        color: white;
+        transition: scale 0.2s ease-in-out;
+    }
+    .SearchBar .Button:hover
+    {
+    
+        background-color: rgb(0,90,146);
+        border: 3px solid rgb(0,90,146);
+
+    }
+
+    .Menu
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+    .Menu .Button
+    {
+        display: flex;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 15pt;
+        height: 55px;
+        padding: 5px;
+        transition: scale 0.2s ease-in-out;
+        background-color: rgb(30, 30, 30);
+        color: white;
+    }
+
+    .Menu .Button:hover
+    {
+        background-color: rgb(20, 20, 20);
+    }
+
+   
+    .LoginButtons
+    {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center; 
+        margin-top: auto;
+        margin-bottom: 50px;
+    }
+    .LoginButtons .Button
+    {
+        font-weight: bold;
+        color: white;
+        margin-top: 15px;
+        border: 3px solid rgb(0,101,157);
+        width: 90%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4px;
+        border-radius: 20px;
+        font-size: 10pt;
+        transition: scale 0.2s ease-in-out;
+    }
+
+    #Login
+    {
+        background-color: rgb(0,101,157);
+    }
+    #Register
+    {
+        background-color: rgb(30,30,30);
+    }
+
+    .ToogleLabel:checked ~ .PlegableMenu
+    {
+        transform: none;
+        scale: 100%;
+    }
+
+    .ProfileButtons
+    {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ProfilePicture
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+        margin: auto;
+    }
+
+    .ProfileButton:hover
+    {
+        background-color: rgb(20, 20, 20);
+        scale: 1.05;
+    }
+
+    #ProPicture
+    {
+        width: 190px;
+        height:190px;
+        border-radius: 100px;
+        vertical-align: middle;
+        border: 3px solid rgb(0,101,157);
+        object-fit: cover;
+        z-index: 1;
+    }
+
+    .ProfileButton
+    {
+        font-weight: bold;
+        color: white;
+        margin-top: 15px;
+        border: 3px solid rgb(0,101,157);
+        background-color: rgb(0,101,157);
+        width: 90%;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        font-size: 10pt;
+        transition: scale 0.2s ease-in-out;
+    }
+
+    .Exit
+    {
+        font-weight: bold;
+        color: white;
+        margin-top: 15px;
+        border: 3px solid rgb(0,101,157);
+        width: 90%;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        font-size: 8pt;
+        transition: scale 0.2s ease-in-out;
+
+    }
+
+    .Exit:hover
+    {
+        background-color: rgb(20, 20, 20);
+        scale: 1.05;
+    }
+
+    #ExitPicture
+    {
+        width: 15px;
+        height: 15px;
+        margin-right: 10px;
+        vertical-align: middle;
+        object-fit: cover;
+        z-index: 1;
+
+    }
+
+    .ExitButton
+    {
+        padding: 5px 0px ;
+        font-weight: bold;
+        font-size: 8pt;
+        color: white;
+    }
+
+}

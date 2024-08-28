@@ -1,0 +1,302 @@
+@media screen and (min-width: 1025px)
+{
+    #AddSong
+    { 
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #AddSong .Square
+    { 
+
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #AddSong .Square .Title
+    {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        font-size: 20pt;
+        font-weight: bold;
+    }
+
+    #AddSong .Square .Subtitle
+    {
+        width: 55%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        font-size: 15pt;
+        font-weight: bold;
+    }
+
+    .SubtitleMini
+    {
+        width: 100%;
+        font-size: 12pt;
+
+    }
+
+    .TextContainerMini
+    {
+        margin-top: -10px;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 40px;
+        border: 3px dotted rgb(0,101,157);
+        background: rgb(25, 25, 25);
+        color: white;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    
+    .TextContainerMini:focus
+    {
+        border: solid 3px rgb(0,101,157);
+        outline: none;
+    }
+
+    .MiniFields
+    {
+        width: 86%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .MiniField
+    {
+        width: 45%;
+        
+    }
+
+    .ListContainerMini
+    {
+        margin-top: -10px;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 40px;
+        border: 3px solid rgb(0,101,157);
+        background: rgb(25, 25, 25);
+        color: white;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    
+    .ListContainerMini:focus
+    {
+        border: solid 3px rgb(0,101,157);
+        outline: none;
+    }
+
+
+}
+
+
+@media screen and (min-width: 681px) and (max-width: 1024px)
+{
+    #AddSong
+    { 
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #AddSong .Square
+    { 
+
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #AddSong .Square .Title
+    {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        font-size: 20pt;
+        font-weight: bold;
+    }
+
+    #AddSong .Square .Subtitle
+    {
+        width: 55%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        font-size: 15pt;
+        font-weight: bold;
+    }
+
+    .SubtitleMini
+    {
+        width: 100%;
+        font-size: 12pt;
+
+    }
+
+    .TextContainerMini
+    {
+        margin-top: -10px;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 40px;
+        border: 3px dotted rgb(0,101,157);
+        background: rgb(25, 25, 25);
+        color: white;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    
+    .TextContainerMini:focus
+    {
+        border: solid 3px rgb(0,101,157);
+        outline: none;
+    }
+
+    .MiniFields
+    {
+        width: 86%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .MiniField
+    {
+        width: 45%;
+        
+    }
+
+    .ListContainerMini
+    {
+        margin-top: -10px;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 40px;
+        border: 3px solid rgb(0,101,157);
+        background: rgb(25, 25, 25);
+        color: white;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    
+    .ListContainerMini:focus
+    {
+        border: solid 3px rgb(0,101,157);
+        outline: none;
+    }
+   
+}
+
+@media screen and (max-width: 680px)
+{
+    #AddSong
+    { 
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #AddSong .Square
+    { 
+
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #AddSong .Square .Title
+    {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        font-size: 20pt;
+        font-weight: bold;
+    }
+
+    h2
+    {
+        font-size: 15pt;
+    }
+
+    #AddSong .Square .Subtitle
+    {
+        width: 55%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        font-size: 15pt;
+        font-weight: bold;
+    }
+
+    .SubtitleMini
+    {
+        width: 100%;
+        font-size: 12pt;
+
+    }
+
+    .TextContainerMini
+    {
+        margin-top: -10px;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 40px;
+        border: 3px dotted rgb(0,101,157);
+        background: rgb(25, 25, 25);
+        color: white;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    
+    .TextContainerMini:focus
+    {
+        border: solid 3px rgb(0,101,157);
+        outline: none;
+    }
+
+    .MiniFields
+    {
+        width: 86%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    .MiniField
+    {
+        width: 90%;
+        
+    }
+
+    .ListContainerMini
+    {
+        margin-top: -10px;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 40px;
+        border: 3px solid rgb(0,101,157);
+        background: rgb(25, 25, 25);
+        color: white;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    
+    .ListContainerMini:focus
+    {
+        border: solid 3px rgb(0,101,157);
+        outline: none;
+    }
+   
+    
+}

@@ -1,0 +1,513 @@
+@media screen and (min-width: 1025px)
+{
+    #SongPage
+    {
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+
+    .SongSquare
+    {
+        width: 70%;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        background-color: rgb(30, 30, 30);
+        display: flex;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        flex-direction: column;
+        border-radius: 20px ;
+    }
+
+    .SongInfo
+    {
+        display: flex;
+        width: 90%;
+    }
+
+    .SongPicture
+    {
+        width: 190px;
+        height: 160px;
+        border-radius: 200px;
+        margin-right: 20px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .SongData
+    {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .SongData .Name
+    {
+        font-weight: bold;
+        font-size: 25pt;
+    }
+    .Author
+    {
+        margin-top: 10px;
+        font-size: 15pt;
+    }
+
+    .Info
+    {
+        margin-top: 5px;
+    }
+
+    .SongButtons
+    {
+        display: flex;
+        width: 35%;
+        margin-top: 20px;
+        margin-left: auto;
+        justify-content: space-between;
+    }
+
+    .like
+    {
+        width: 40px;
+        height: 40px;
+        background-color: rgb(30,30,30);
+        color: none;
+        background-image: url(../images/like.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+    }
+    .liked
+    {
+        width: 40px;
+        height: 40px;
+        background-color: rgb(30,30,30);
+        color: none;
+        background-image: url(../images/liked.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+    }
+    .LikeCount
+    {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: auto;
+
+    }
+
+    .AddToList    {
+        height: 35px;
+        width: 70%;
+        font-weight: bold;
+        color: white;
+        border-radius: 50px;
+        border: solid 3px rgb(0,101,157);
+        transition: scale 0.2s ease-in-out;
+    }
+
+    .QuitFromList
+    {
+        height: 35px;
+        width: 70%;
+        font-weight: bold;
+        color: white;
+        border-radius: 50px;
+        border: solid 3px rgb(0,101,157);
+        transition: scale 0.2s ease-in-out;
+    }
+
+    .Subtitle
+    {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 85%;
+        font-weight: bold;
+        font-size: 18pt;
+    }
+
+    .Chords
+    {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Chord
+    {
+        width: 14%;
+    }
+
+    .ChordImage
+    {
+        width: 95%;
+    }
+    .ChordName
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Tab
+    {
+        width: 85%;
+    }
+    .TabImage
+    {
+        width: 100%;
+    }
+    
+}
+
+
+@media screen and (min-width: 681px) and (max-width: 1024px)
+{
+    #SongPage
+    {
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+
+    .SongSquare
+    {
+        width: 90%;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        background-color: rgb(30, 30, 30);
+        display: flex;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        flex-direction: column;
+        border-radius: 20px ;
+    }
+
+    .SongInfo
+    {
+        display: flex;
+        width: 90%;
+    }
+
+    .SongPicture
+    {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .SongData
+    {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .SongData .Name
+    {
+        font-weight: bold;
+        font-size: 20pt;
+    }
+    .Author
+    {
+        margin-top: 10px;
+        font-size: 12pt;
+    }
+
+    .Info
+    {
+        margin-top: 5px;
+        font-size: 10pt;
+    }
+
+    .SongButtons
+    {
+        display: flex;
+        width: 35%;
+        margin-top: 20px;
+        margin-left: auto;
+        justify-content: space-between;
+    }
+
+    .like
+    {
+        width: 35px;
+        height: 35px;
+        background-color: rgb(30,30,30);
+        color: none;
+        background-image: url(../images/like.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+    }
+    .liked
+    {
+        width: 35px;
+        height: 35px;
+        background-color: rgb(30,30,30);
+        color: none;
+        background-image: url(../images/liked.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+    }
+    .LikeCount
+    {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: auto;
+
+        font-size: 10pt;
+
+    }
+
+    .AddToList    {
+        height: 35px;
+        width: 70%;
+        font-weight: bold;
+        color: white;
+        border-radius: 50px;
+        border: solid 3px rgb(0,101,157);
+        transition: scale 0.2s ease-in-out;
+    }
+
+    .QuitFromList
+    {
+        height: 35px;
+        width: 70%;
+        font-weight: bold;
+        color: white;
+        border-radius: 50px;
+        border: solid 3px rgb(0,101,157);
+        transition: scale 0.2s ease-in-out;
+    }
+
+    .Subtitle
+    {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 85%;
+        font-weight: bold;
+        font-size: 15pt;
+    }
+
+    .Chords
+    {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Chord
+    {
+        width: 14%;
+    }
+
+    .ChordImage
+    {
+        width: 95%;
+    }
+    .ChordName
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 9pt;
+        align-items: center;
+    }
+
+    #Tab
+    {
+        width: 85%;
+    }
+    .TabImage
+    {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 680px)
+{
+    #SongPage
+    {
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+
+    .SongSquare
+    {
+        width: 90%;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        background-color: rgb(30, 30, 30);
+        display: flex;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        flex-direction: column;
+        border-radius: 20px ;
+    }
+
+    .SongInfo
+    {
+        display: flex;
+        width: 90%;
+    }
+
+    .SongPicture
+    {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .SongData
+    {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .SongData .Name
+    {
+        font-weight: bold;
+        font-size: 15pt;
+    }
+    .Author
+    {
+        margin-top: 10px;
+        font-size: 10pt;
+    }
+
+    .Info
+    {
+        margin-top: 5px;
+        font-size: 8pt;
+    }
+
+    .SongButtons
+    {
+        display: flex;
+        width: 40%;
+        margin-top: 20px;
+        margin-left: auto;
+        justify-content: space-between;
+    }
+
+    .like
+    {
+        margin-top: 5;
+        width: 25px;
+        height: 25px;
+        background-color: rgb(30,30,30);
+        color: none;
+        background-image: url(../images/like.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+    }
+    .liked
+    {
+        margin-top: 5;
+        width: 25px;
+        height: 25px;
+        background-color: rgb(30,30,30);
+        color: none;
+        background-image: url(../images/liked.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+    }
+    .LikeCount
+    {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: auto;
+
+        font-size: 10pt;
+
+    }
+
+    .AddToList    {
+        height: 35px;
+        width: 70%;
+        font-weight: bold;
+        color: white;
+        font-size: 8pt;
+        border-radius: 50px;
+        border: solid 3px rgb(0,101,157);
+        transition: scale 0.2s ease-in-out;
+    }
+
+    .QuitFromList
+    {
+        height: 35px;
+        width: 70%;
+        font-size: 8pt;
+        font-weight: bold;
+        color: white;
+        border-radius: 50px;
+        border: solid 3px rgb(0,101,157);
+        transition: scale 0.2s ease-in-out;
+    }
+
+    .Subtitle
+    {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 85%;
+        font-weight: bold;
+        font-size: 15pt;
+    }
+
+    .Chords
+    {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .Chord
+    {
+        width: 24%;
+    }
+
+    .ChordImage
+    {
+        margin-top: 10px;
+        width: 95%;
+    }
+    .ChordName
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 9pt;
+        align-items: center;
+    }
+
+    #Tab
+    {
+        width: 85%;
+    }
+    .TabImage
+    {
+        width: 100%;
+    }
+}

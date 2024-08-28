@@ -1,0 +1,84 @@
+@media screen and (min-width: 1025px)
+{
+    .Songs .ButtonCreate
+    {
+        height: 35px;
+        width: 20%;
+        margin-top: 20px;
+        margin-left: 35px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        color: white;
+        border-radius: 50px;
+        border: solid 3px rgb(0,101,157);
+        transition: scale 0.2s ease-in-out;
+    }
+
+    
+    .ButtonCreate:hover
+    {
+        outline: none;
+        scale: 1.02;
+    }
+    
+}
+
+
+@media screen and (min-width: 681px) and (max-width: 1024px)
+{
+    .Songs .ButtonCreate
+    {
+        height: 35px;
+        width: 30%;
+        margin-top: 20px;
+        margin-left: 15px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        color: white;
+        border-radius: 50px;
+        border: solid 3px rgb(0,101,157);
+        transition: scale 0.2s ease-in-out;
+    }
+
+    
+    .ButtonCreate:hover
+    {
+        outline: none;
+        scale: 1.02;
+    } 
+
+}
+
+@media screen and (max-width: 680px)
+{
+
+    .Songs .ButtonCreate
+    {
+        height: 35px;
+        width: 40%;
+        margin-top: 20px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        color: white;
+        border-radius: 50px;
+        border: solid 3px rgb(0,101,157);
+        transition: scale 0.2s ease-in-out;
+    }
+
+    
+    .ButtonCreate:hover
+    {
+        outline: none;
+        scale: 1.02;
+    } 
+    
+}

@@ -1,0 +1,743 @@
+@media screen and (min-width: 1025px)
+{
+    
+    #Community
+    {   
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    .CommunityInfo
+    {
+        width: 95%;
+    }
+
+    .Cover
+    {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .CommunityData
+    {
+        width: 100%;
+        height: 120px;
+        top: -120px;
+        background-color: rgba(30, 30, 30, .5);
+        position:relative;
+        display: flex;
+
+    }
+
+    .TextFields
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        width: 50%;
+        height: 100%;
+    }
+
+    .TextFields .Name
+    {
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    .TextFields .Admin
+    {
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    .TextFields .Date
+    {
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .CommunityButtons
+    {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        height: 100%;
+    }
+
+    .CommunityButtons .Button
+    {
+        height: 35px;
+        width: 30%;
+        margin-right: 30px;
+        margin-left: auto;
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+        border-radius: 50px;
+        border: solid 3px rgb(0,101,157);
+        transition: scale 0.2s ease-in-out;
+    }
+
+    .CommunityButtons .Delete
+    {
+        height: 35px;
+        width: 35px;
+        margin-right: 30px;
+        margin-left: auto;
+        font-weight: bold;
+        background-image: url(../images/delete.png);
+        background-size: cover;
+        background-color: rgba(30, 30, 30, 0);
+        border: none;
+        cursor: pointer;
+        transition: scale 0.2s ease-in-out;
+    }
+
+    .CommunityPosts
+    {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin-bottom: 50px;
+    }
+
+    
+    .Description
+    {
+        margin-top: -120px;
+        display: flex;
+        width: 100%;
+        background-color: rgb(30, 30, 30);
+        margin-bottom: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .Description p
+    {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .PostSomething
+    {
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background-color: rgb(30,30,30);
+    }
+
+    .PhotoText
+    {
+        width: 95%;
+        margin-top: 20px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .PostProfilePicture
+    {
+        width: 45px;
+        height: 45px;
+        margin-right: 10px;
+        border-radius: 50px;
+        object-fit: cover;
+        cursor: pointer;
+        object-position: center;
+    }
+
+    .TextPost
+    {
+        width: 90%;
+        height: 40px;
+        padding: 0px 15px;
+        border-radius: 50px;
+        border: none;
+        color: white;
+        background-color: rgb(50,50,50);
+        outline: none;
+    }
+
+    .ButtonPost
+    {
+        width: 100%;
+        margin: auto;
+        border-top: solid rgb(20,20,20) 5px;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        height: 50px;
+    }
+
+    .ButtonPost .Text
+    {
+        height: 40px;
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10pt;
+        font-weight: bold;
+        margin-right: 10px;
+        border-right: solid rgb(20,20,20) 1px;
+    }
+
+    .ButtonIcon
+    {
+        height: 20px;
+        width: 20px;
+    }
+
+    .ButtonPost .Button
+    {
+        height: 40px;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10pt;
+        border-right: solid rgb(20,20,20) 1px;
+    }
+
+    #Posting
+    {
+        width: 30%;
+        height: 30px;
+        border-radius: 50px;
+        background-color: rgb(0,101,157);
+        color: white;
+        font-weight: bold;
+        display: flex;;
+        border: none;
+        margin-right: 20px;
+        margin-left: auto;
+    }
+
+    .DeleteButton
+    {
+        width: 30px;
+        height: 30px;
+        background: url(../images/delete.png);
+        background-size: cover;
+        margin-left: auto;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .NoUser
+    {
+        width: 95%;
+        padding: 30px;
+        margin-left: auto;
+        font-size: 15pt;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        margin-right: auto;
+        background-color: rgb(30, 30, 30);
+    }
+
+
+}
+
+
+@media screen and (min-width: 681px) and (max-width: 1024px)
+{
+    #Community
+    {   
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    .CommunityInfo
+    {
+        width: 95%;
+    }
+
+    .Cover
+    {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .CommunityData
+    {
+        width: 100%;
+        height: 120px;
+        top: -120px;
+        background-color: rgba(30, 30, 30, .5);
+        position:relative;
+        display: flex;
+
+    }
+
+    .TextFields
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        width: 50%;
+        height: 100%;
+    }
+
+    .TextFields .Name
+    {
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    .TextFields .Admin
+    {
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    .TextFields .Date
+    {
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .CommunityButtons
+    {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        height: 100%;
+    }
+
+    .CommunityButtons .Button
+    {
+        height: 35px;
+        width: 55%;
+        margin-right: 30px;
+        margin-left: auto;
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+        border-radius: 50px;
+        border: solid 3px rgb(0,101,157);
+        transition: scale 0.2s ease-in-out;
+    }
+
+    .CommunityButtons .Delete
+    {
+        height: 35px;
+        width: 35px;
+        margin-right: 30px;
+        margin-left: auto;
+        font-weight: bold;
+        background-image: url(../images/delete.png);
+        background-size: cover;
+        background-color: rgba(30, 30, 30, 0);
+        border: none;
+        cursor: pointer;
+        transition: scale 0.2s ease-in-out;
+    }
+
+    .CommunityPosts
+    {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin-bottom: 50px;
+    }
+
+    
+    .Description
+    {
+        margin-top: -120px;
+        display: flex;
+        width: 100%;
+        background-color: rgb(30, 30, 30);
+        margin-bottom: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .Description p
+    {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .PostSomething
+    {
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background-color: rgb(30,30,30);
+    }
+
+    .PhotoText
+    {
+        width: 95%;
+        margin-top: 20px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .PostProfilePicture
+    {
+        width: 45px;
+        height: 45px;
+        margin-right: 10px;
+        border-radius: 50px;
+        object-fit: cover;
+        cursor: pointer;
+        object-position: center;
+    }
+
+    .TextPost
+    {
+        width: 90%;
+        height: 40px;
+        padding: 0px 15px;
+        border-radius: 50px;
+        border: none;
+        color: white;
+        background-color: rgb(50,50,50);
+        outline: none;
+    }
+
+    .ButtonPost
+    {
+        width: 100%;
+        margin: auto;
+        border-top: solid rgb(20,20,20) 5px;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        height: 50px;
+    }
+
+    .ButtonPost .Text
+    {
+        height: 40px;
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10pt;
+        font-weight: bold;
+        margin-right: 10px;
+        border-right: solid rgb(20,20,20) 1px;
+    }
+
+    .ButtonIcon
+    {
+        height: 20px;
+        width: 20px;
+    }
+
+    .ButtonPost .Button
+    {
+        height: 40px;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10pt;
+        border-right: solid rgb(20,20,20) 1px;
+    }
+
+    #Posting
+    {
+        width: 30%;
+        height: 30px;
+        border-radius: 50px;
+        background-color: rgb(0,101,157);
+        color: white;
+        font-weight: bold;
+        display: flex;;
+        border: none;
+        margin-right: 20px;
+        margin-left: auto;
+    }
+
+    .DeleteButton
+    {
+        width: 30px;
+        height: 30px;
+        background: url(../images/delete.png);
+        background-size: cover;
+        margin-left: auto;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .NoUser
+    {
+        width: 95%;
+        padding: 30px;
+        margin-left: auto;
+        font-size: 15pt;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        margin-right: auto;
+        background-color: rgb(30, 30, 30);
+    }  
+   
+}
+
+@media screen and (max-width: 680px)
+{
+    #Community
+    {   
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    .CommunityInfo
+    {
+        width: 95%;
+    }
+
+    .Cover
+    {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .CommunityData
+    {
+        width: 100%;
+        height: 120px;
+        top: -120px;
+        background-color: rgba(30, 30, 30, .5);
+        position:relative;
+        display: flex;
+
+    }
+
+    .TextFields
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        width: 50%;
+        height: 100%;
+    }
+
+    .TextFields .Name
+    {
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    .TextFields .Admin
+    {
+        font-size: 10pt;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    .TextFields .Date
+    {
+        font-size: 10pt;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .CommunityButtons
+    {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        height: 100%;
+    }
+
+    .CommunityButtons .Button
+    {
+        height: 35px;
+        width: 65%;
+        margin-right: 30px;
+        margin-left: auto;
+        font-weight: bold;
+        font-size: 8pt;
+        color: white;
+        cursor: pointer;
+        border-radius: 50px;
+        border: solid 3px rgb(0,101,157);
+        transition: scale 0.2s ease-in-out;
+    }
+
+    .CommunityButtons .Delete
+    {
+        height: 35px;
+        width: 35px;
+        margin-right: 30px;
+        margin-left: auto;
+        font-weight: bold;
+        background-image: url(../images/delete.png);
+        background-size: cover;
+        background-color: rgba(30, 30, 30, 0);
+        border: none;
+        cursor: pointer;
+        transition: scale 0.2s ease-in-out;
+    }
+
+    .CommunityPosts
+    {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin-bottom: 50px;
+    }
+
+    
+    .Description
+    {
+        margin-top: -120px;
+        display: flex;
+        width: 100%;
+        background-color: rgb(30, 30, 30);
+        margin-bottom: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .Description p
+    {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .PostSomething
+    {
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background-color: rgb(30,30,30);
+    }
+
+    .PhotoText
+    {
+        width: 95%;
+        margin-top: 20px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .PostProfilePicture
+    {
+        width: 45px;
+        height: 45px;
+        margin-right: 10px;
+        border-radius: 50px;
+        object-fit: cover;
+        cursor: pointer;
+        object-position: center;
+    }
+
+    .TextPost
+    {
+        width: 90%;
+        height: 40px;
+        padding: 0px 15px;
+        border-radius: 50px;
+        border: none;
+        color: white;
+        background-color: rgb(50,50,50);
+        outline: none;
+    }
+
+    .ButtonPost
+    {
+        width: 100%;
+        margin: auto;
+        border-top: solid rgb(20,20,20) 5px;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        height: 50px;
+    }
+
+    .ButtonPost .Text
+    {
+        height: 40px;
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10pt;
+        font-weight: bold;
+        margin-right: 10px;
+        border-right: solid rgb(20,20,20) 1px;
+    }
+
+    .ButtonIcon
+    {
+        height: 20px;
+        width: 20px;
+    }
+
+    .ButtonPost .Button
+    {
+        height: 40px;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10pt;
+        border-right: solid rgb(20,20,20) 1px;
+    }
+
+    #Posting
+    {
+        width: 30%;
+        height: 30px;
+        border-radius: 50px;
+        background-color: rgb(0,101,157);
+        color: white;
+        font-weight: bold;
+        display: flex;;
+        border: none;
+        margin-right: 20px;
+        margin-left: auto;
+    }
+
+    .DeleteButton
+    {
+        width: 30px;
+        height: 30px;
+        background: url(../images/delete.png);
+        background-size: cover;
+        margin-left: auto;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .NoUser
+    {
+        width: 95%;
+        padding: 30px;
+        margin-left: auto;
+        font-size: 15pt;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        margin-right: auto;
+        background-color: rgb(30, 30, 30);
+    }  
+    
+}
